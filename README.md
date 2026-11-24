@@ -22,7 +22,7 @@
 
 # SmartDrugs MCP
 
-**SmartDrugs** is a Brazilian evidence hub on nootropics, peptides, functional mushrooms, adaptogens and cannabinoids. Every claim on a profile points to its source. It has no store, sells nothing and never tells anyone what to take.
+**SmartDrugs** is an independent, evidence-based information platform on nootropics. It does not sell products and has no store; some links are affiliate links, and they are always labeled. It covers nootropics, peptides, functional mushrooms, adaptogens and cannabinoids, every claim on a profile points to its source, and it never tells anyone what to take.
 
 This MCP server puts the SmartDrugs catalog inside your AI agent: 152 substance profiles with mechanism, what the studies show and at which level of evidence, side effects, drug interactions with severity, the doses used in the studies, regulatory status in Brazil, and the sources behind each number.
 
@@ -284,7 +284,9 @@ curl -s https://smartdrugs.com.br/mcp \
 
 ## Português
 
-**SmartDrugs MCP** coloca as fichas do SmartDrugs dentro do seu agente de IA: 152 fichas de nootrópicos, peptídeos, cogumelos funcionais, adaptógenos e canabinoides, com mecanismo, o que os estudos mostram e com qual nível de evidência, efeitos colaterais, interações com remédios, doses usadas nos estudos, situação na Anvisa e a fonte de cada número. O SmartDrugs não tem loja, não vende nada e nunca diz a ninguém o que tomar.
+**SmartDrugs** é uma plataforma independente de informação sobre nootrópicos, baseada em evidência. Não vende produtos nem tem loja; alguns links são de afiliado e vêm identificados. Nunca diz a ninguém o que tomar.
+
+O **SmartDrugs MCP** coloca as fichas do SmartDrugs dentro do seu agente de IA: 152 fichas de nootrópicos, peptídeos, cogumelos funcionais, adaptógenos e canabinoides, com mecanismo, o que os estudos mostram e com qual nível de evidência, efeitos colaterais, interações com remédios, doses usadas nos estudos, situação na Anvisa e a fonte de cada número.
 
 **Endereço:** `https://smartdrugs.com.br/mcp` (Streamable HTTP, sem cadastro para leitura).
 
