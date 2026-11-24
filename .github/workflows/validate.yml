@@ -1,0 +1,23 @@
+name: Validate manifests
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: JSON syntax
+        run: |
+          for f in server.json mcp.json .mcp.json plugin.json gemini-extension.json .claude-plugin/plugin.json .cursor-plugin/plugin.json .grok-plugin/plugin.json; do
+            python3 -m json.tool "$f" > /dev/null && echo "ok $f"
+          done
+      - name: MCP Registry schema
+        run: |
+          curl -sL https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_linux_amd64.tar.gz | tar xz mcp-publisher
+          ./mcp-publisher validate server.json
+      - name: Endpoint answers tools/list
+        run: |
+          curl -sf https://smartdrugs.com.br/mcp -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' \
+            -d '{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}' | python3 -c 'import json,sys; t=json.load(sys.stdin)["result"]["tools"]; print(len(t), "tools")'

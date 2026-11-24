@@ -1,0 +1,34 @@
+### List tools
+POST https://smartdrugs.com.br/mcp
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{"jsonrpc":"2.0","id":"tools-1","method":"tools/list","params":{}}
+
+### Get a profile (only some sections)
+POST https://smartdrugs.com.br/mcp
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{"jsonrpc":"2.0","id":"call-1","method":"tools/call","params":{"name":"obter_ficha","arguments":{"slug":"l-teanina","formato":"markdown"}}}
+
+### Study doses
+POST https://smartdrugs.com.br/mcp
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{"jsonrpc":"2.0","id":"call-2","method":"tools/call","params":{"name":"faixa_de_dose","arguments":{"substancia":"creatina"}}}
+
+### 24 hour curve
+POST https://smartdrugs.com.br/mcp
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{"jsonrpc":"2.0","id":"call-3","method":"tools/call","params":{"name":"curva_24h","arguments":{"itens":[{"substancia":"cafeina","horario":"tarde"}]}}}
+
+### Read a resource
+POST https://smartdrugs.com.br/mcp
+Content-Type: application/json
+Accept: application/json, text/event-stream
+
+{"jsonrpc":"2.0","id":"res-1","method":"resources/read","params":{"uri":"smartdrugs://ficha/bacopa-monnieri"}}

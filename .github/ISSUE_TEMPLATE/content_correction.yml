@@ -1,0 +1,25 @@
+name: Content correction
+description: A number, claim or source on a SmartDrugs profile looks wrong
+labels: [content]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Profile URL
+      placeholder: https://smartdrugs.com.br/substancias/l-teanina/
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: Quote the text or number and say what the source actually reports.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: DOI, PubMed ID or link. Corrections without a source cannot be reviewed.
+    validations:
+      required: true

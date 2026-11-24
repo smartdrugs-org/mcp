@@ -1,0 +1,17 @@
+name: Client install guide
+description: Ask for, or fix, install steps for an MCP client
+labels: [docs]
+body:
+  - type: input
+    id: client
+    attributes:
+      label: Client
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps or problem
+      description: Link to the client's own documentation if you can.
+    validations:
+      required: true

@@ -1,0 +1,15 @@
+{
+  "name": "smartdrugs",
+  "version": "1.5.0",
+  "description": "Sourced evidence on nootropics, peptides, functional mushrooms, adaptogens and cannabinoids: studies, study doses, drug interactions, 24h curves and stack checks. Educational, not medical advice.",
+  "author": {
+    "name": "SmartDrugs",
+    "email": "contato@smartdrugs.com.br",
+    "url": "https://smartdrugs.com.br/"
+  },
+  "homepage": "https://smartdrugs.com.br/desenvolvedores/",
+  "repository": "https://github.com/smartdrugs-org/mcp",
+  "license": "MIT",
+  "keywords": ["mcp","nootropics","peptides","functional-mushrooms","adaptogens","supplements","drug-interactions","evidence-based","pharmacology","health-information","brazil","pt-br"],
+  "mcpServers": "./.mcp.json"
+}
