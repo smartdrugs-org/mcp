@@ -3,7 +3,7 @@
   "name": "br.com.smartdrugs/mcp",
   "title": "SmartDrugs",
   "description": "Sourced evidence on nootropics, peptides and mushrooms: studies, study doses, drug interactions.",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "websiteUrl": "https://smartdrugs.com.br/",
   "repository": {
     "url": "https://github.com/smartdrugs-org/mcp",
@@ -11,14 +11,18 @@
   },
   "icons": [
     {
-      "src": "https://smartdrugs.com.br/logo.png",
+      "src": "https://raw.githubusercontent.com/smartdrugs-org/mcp/main/assets/logo.png",
       "mimeType": "image/png",
-      "sizes": ["512x512"]
+      "sizes": [
+        "512x512"
+      ]
     },
     {
-      "src": "https://smartdrugs.com.br/apple-touch-icon.png",
+      "src": "https://raw.githubusercontent.com/smartdrugs-org/mcp/main/assets/apple-touch-icon.png",
       "mimeType": "image/png",
-      "sizes": ["180x180"]
+      "sizes": [
+        "180x180"
+      ]
     }
   ],
   "remotes": [
@@ -29,9 +33,13 @@
   ],
   "_meta": {
     "io.modelcontextprotocol.registry/publisher-provided": {
-      "marketplaceIcon": "https://smartdrugs.com.br/logo.png",
+      "marketplaceIcon": "https://raw.githubusercontent.com/smartdrugs-org/mcp/main/assets/logo.png",
       "thumbnail": "https://raw.githubusercontent.com/smartdrugs-org/mcp/main/assets/social-preview.png",
-      "category": ["health", "research", "education"],
+      "category": [
+        "health",
+        "research",
+        "education"
+      ],
       "language": "pt-BR",
       "authentication": "none",
       "subscriptionRequired": false

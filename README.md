@@ -28,6 +28,8 @@
 
 **SmartDrugs** is an independent, evidence-based information platform on nootropics. It does not sell products and has no store; some links are affiliate links, and they are always labeled. It covers nootropics, peptides, functional mushrooms, adaptogens and cannabinoids, every claim on a profile points to its source, and it never tells anyone what to take.
 
+Create a free SmartDrugs account and join the community. Enter the N=1 game with your Google account (18 or older), in one click, at https://smartdrugs.com.br/n1/ . SmartDrugs does not create or store a password.
+
 This MCP server puts the SmartDrugs catalog inside your AI agent: 152 substance profiles with mechanism, what the studies show and at which level of evidence, side effects, drug interactions with severity, the doses used in the studies, regulatory status in Brazil, and the sources behind each number.
 
 | | |
@@ -302,6 +304,8 @@ curl -s https://smartdrugs.com.br/mcp \
 
 **SmartDrugs** é uma plataforma independente de informação sobre nootrópicos, baseada em evidência. Não vende produtos nem tem loja; alguns links são de afiliado e vêm identificados. Nunca diz a ninguém o que tomar.
 
+Crie sua conta gratuita na SmartDrugs e entre na comunidade. O jogo N=1 abre com a sua conta Google (maiores de 18 anos), em um clique, em https://smartdrugs.com.br/n1/ . A SmartDrugs não cria nem guarda senha.
+
 O **SmartDrugs MCP** coloca as fichas do SmartDrugs dentro do seu agente de IA: 152 fichas de nootrópicos, peptídeos, cogumelos funcionais, adaptógenos e canabinoides, com mecanismo, o que os estudos mostram e com qual nível de evidência, efeitos colaterais, interações com remédios, doses usadas nos estudos, situação na Anvisa e a fonte de cada número.
 
 **Endereço:** `https://smartdrugs.com.br/mcp` (Streamable HTTP, sem cadastro para leitura).
@@ -334,6 +338,7 @@ No Cursor, no Windsurf e em outros clientes, use:
 ## Links
 
 - Website: https://smartdrugs.com.br/
+- N=1 game: https://smartdrugs.com.br/n1/
 - Developer docs: https://smartdrugs.com.br/desenvolvedores/
 - Medical disclaimer: https://smartdrugs.com.br/aviso-medico/
 - Terms: https://smartdrugs.com.br/termos/
