@@ -12,6 +12,10 @@
 </p>
 
 <p align="center">
+  <a href="https://kiro.dev/launch/mcp/add?name=SmartDrugs&config=%7B%22url%22%3A%22https%3A%2F%2Fsmartdrugs.com.br%2Fmcp%22%2C%22disabled%22%3Afalse%2C%22autoApprove%22%3A%5B%5D%7D"><img src="https://kiro.dev/images/add-to-kiro.svg" alt="Add to Kiro"></a>
+</p>
+
+<p align="center">
   <a href="#install">Install</a> ·
   <a href="#tools">Tools</a> ·
   <a href="#example-prompts">Example prompts</a> ·
@@ -117,6 +121,17 @@ code --add-mcp '{"name":"smartdrugs","type":"http","url":"https://smartdrugs.com
 ```
 
 [`plugin.json`](plugin.json) and [`mcp.json`](mcp.json) are the Agent Plugins manifests for GitHub Copilot, VS Code agent plugins and Kiro.
+
+</details>
+
+<details>
+<summary><strong>Kiro</strong></summary>
+
+One-click install with the official Add to Kiro badge:
+
+[![Add to Kiro](https://kiro.dev/images/add-to-kiro.svg)](https://kiro.dev/launch/mcp/add?name=SmartDrugs&config=%7B%22url%22%3A%22https%3A%2F%2Fsmartdrugs.com.br%2Fmcp%22%2C%22disabled%22%3Afalse%2C%22autoApprove%22%3A%5B%5D%7D)
+
+The Agent Plugins manifests are [`plugin.json`](plugin.json) and [`mcp.json`](mcp.json).
 
 </details>
 
@@ -257,6 +272,7 @@ If you or someone near you is unwell after using a substance, may have been pois
 
 ## Privacy and security
 
+- Privacy policy: https://smartdrugs.com.br/privacidade/
 - Reading needs no account and sends no personal data beyond what you type in the request.
 - Community tools work only after the person approves the connection on smartdrugs.com.br with Google. The connection key (`sdm_...`) belongs to that conversation, lasts 7 days and can be revoked at any time.
 - Every write tool requires the person to approve the final text in the conversation first.
@@ -321,8 +337,10 @@ No Cursor, no Windsurf e em outros clientes, use:
 - Developer docs: https://smartdrugs.com.br/desenvolvedores/
 - Medical disclaimer: https://smartdrugs.com.br/aviso-medico/
 - Terms: https://smartdrugs.com.br/termos/
+- Privacy policy: https://smartdrugs.com.br/privacidade/
 - About: https://smartdrugs.com.br/sobre/
 - Contact: [contato@smartdrugs.com.br](mailto:contato@smartdrugs.com.br)
+- Issues: https://github.com/smartdrugs-org/mcp/issues
 
 ## License
 
