@@ -218,7 +218,7 @@ These are the 26 tools the server returns from `tools/list` (server version 1.5.
 
 | Tool | What it does |
 | --- | --- |
-| `listar_stacks` | Public stacks built by members in NeuroAtlas, by points or by the monthly ranking. |
+| `listar_stacks` | Public stacks built by members in NeuroAtlas, by points or by the monthly ranking. Substances controlled in Brazil (lists of Portaria SVS/MS 344/1998, such as amphetamine, methylphenidate and modafinil) cannot be added to stacks, and stacks that contain them are not public. |
 | `obter_stack` | One public stack by id, with author, items and its current evaluation against the profiles. |
 | `resumo_relatos` | Summary of published user reports for a substance. Counts appear only from 5 reports and distributions from 20. Personal experience, not scientific evidence. |
 | `listar_relatos` | Published reports (each one reviewed by the team before it appears), by block: what was used, how, what was noticed, adverse effects, precautions. |
@@ -327,7 +327,7 @@ No Cursor, no Windsurf e em outros clientes, use:
 - Se eu tomar cafeína à tarde, quanto ainda resta no sangue às 23h?
 - O que dizem os relatos da comunidade sobre ashwagandha?
 
-**Comunidade.** Quem já usou uma substância pode deixar um relato pela própria conversa: o agente chama `entrar_na_comunidade`, você autoriza no site com a conta Google (a SmartDrugs não cria nem guarda senha), revisa o texto final e confirma. Todo relato passa pela equipe antes de aparecer.
+**Comunidade.** Quem já usou uma substância pode deixar um relato pela própria conversa: o agente chama `entrar_na_comunidade`, você autoriza no site com a conta Google (a SmartDrugs não cria nem guarda senha), revisa o texto final e confirma. Todo relato passa pela equipe antes de aparecer. A leitura é pública e sem cadastro; com o login do Google, a pessoa também participa da comunidade (5 ferramentas), sempre com confirmação no chat. A conexão vale 7 dias.
 
 **Aviso.** Conteúdo educacional. Não substitui orientação médica, não faz diagnóstico nem prescrição. Doses das fichas são doses usadas em estudos, não recomendação. Em caso de mal-estar, suspeita de intoxicação ou sofrimento emocional: **SAMU 192**, **Disque-Intoxicação 0800 722 6001**, **CVV 188**.
 
