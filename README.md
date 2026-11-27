@@ -26,6 +26,8 @@
 
 # SmartDrugs MCP
 
+[![Listed on HookMCP](https://hookmcp.com/badge.svg)](https://hookmcp.com)
+
 **SmartDrugs** is an independent, evidence-based information platform on nootropics. It does not sell products and has no store; some links are affiliate links, and they are always labeled. It covers nootropics, peptides, functional mushrooms, adaptogens and cannabinoids, every claim on a profile points to its source, and it never tells anyone what to take.
 
 Create a free SmartDrugs account and join the community. Enter the N=1 game with your Google account (18 or older), in one click, at https://smartdrugs.com.br/n1/ . SmartDrugs does not create or store a password.
