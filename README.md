@@ -27,6 +27,9 @@
 # SmartDrugs MCP
 
 [![Listed on HookMCP](https://hookmcp.com/badge.svg)](https://hookmcp.com)
+[![Featured on TrustedMCP](https://trustedmcp.io/badge/s/kfoioj2qo7ovw65pqf4x.svg)](https://trustedmcp.io/l/kfoioj2qo7ovw65pqf4x)
+[![Listed on chen.media/mcp](https://chen.media/mcp/badge/br-com-smartdrugs-mcp.svg)](https://chen.media/mcp/br-com-smartdrugs-mcp)
+Find us on the [Chen Media MCP Directory](https://chen.media/mcp)
 
 **SmartDrugs** is an independent, evidence-based information platform on nootropics. It does not sell products and has no store; some links are affiliate links, and they are always labeled. It covers nootropics, peptides, functional mushrooms, adaptogens and cannabinoids, every claim on a profile points to its source, and it never tells anyone what to take.
 
